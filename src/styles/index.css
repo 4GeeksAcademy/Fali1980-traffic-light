@@ -1,3 +1,78 @@
+.container {
+    border: 1px solid black;
+    height: 100vh;
+}
+.boxLight {
+    border: 1px solid black;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(4, 41, 9);
+    
+    
+}
+.boxLight div {
+    border: 1px solid black;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 15px 20px;
+    
+    
+}
+.lightRed {
+    border: 1px solid black;
+    background-color: red;
+}
+.lightYellow {
+    border: 1px solid black;
+    background-color: yellow;
+}
+.lightGreen {
+    border: 1px solid black;
+    background-color: green;
+}
+.sticks {
+    display: flex;   
+}
+.verticalStick{
+    border: 1px solid black;
+    width: 30px;
+    height: 400px;
+    margin-left: 635px;
+    background-color: rgb(4, 41, 9);
+}
+.horizontalStick {
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(4, 41, 9);
+    margin-top: 150px;
+}
+.manBoxLight {
+    border: 1px solid black;
+    background-color: rgb(4, 41, 9);
+    width: 100px;
+    height: 100px;
+    margin-top: 110px;
+    border-radius: 15px;
+}
+
+.lightOn {
+    box-shadow: inset 0px 0px 30px white, 0px 0px 30px white, 0px 0px 60px white
+}
+.iconMan {
+    color: white;
+    font-size: 80px;
+    
+}
+
 
 /* 
 
